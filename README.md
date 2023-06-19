@@ -1,2 +1,2 @@
 # revita-tool
-Revita is Reliability via transient configurations Tool
+A tool that supports the ReViTa framework application
