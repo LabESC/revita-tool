@@ -1,0 +1,247 @@
+p {
+  font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted lightgray;
+}
+
+.tooltip-c {
+  position: absolute;
+  right: 100px;
+  top: 1px;
+  border: 3px solid red;
+  padding: 5px;
+}
+
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 5px;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+html,
+body {
+    font: 11pt arial;
+}
+
+h1 {
+    font-size: 150%;
+    margin: 5px 0;
+}
+
+h2 {
+    font-size: 100%;
+    margin: 5px 0;
+}
+
+table.view {
+    width: 100%;
+}
+
+table td {
+    vertical-align: top;            
+}
+
+table table {
+    background-color: white;
+    border: 0px;
+}
+
+table table td {
+    vertical-align: middle;
+}
+
+input[type="text"],
+pre {
+    border: 1px solid lightgray;
+}
+
+pre {
+    margin: 0;
+    padding: 5px;
+    font-size: 10pt;
+}
+
+#mynetwork {
+    width: 100%;
+    height: 800px;
+    border: 1px solid lightgray;
+}
+
+.button {
+    background-color: green;
+    color: white;
+    width: 140px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}        
+
+.button-ok {
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}        
+
+.button-cancel {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}                
+
+.button-cmd {
+    font-weight: bolder;
+    width: 140px;
+    font-size: 16px;
+    cursor: pointer;
+}                
+
+
+
+ 
+
+/* divs das edicoes */
+.hidden {
+    display: none;
+    position: fixed;
+    top: 60px;
+    left: 170px;            
+    padding: 7px;
+    border-style: ridge;
+    background-color: #eee;
+    box-shadow: 10px 10px 18px #888888;
+}
+
+/* divs das edicoes */
+.stophidden {
+    display: none;
+    position: fixed;
+    top: 10px;
+    right: 90px;            
+    padding: 4px;
+    border-style: ridge;
+    background-color: #eee;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+
+
+/* divs das edicoes */
+.fullhidden {
+    display: none;
+    position: fixed;
+    top: 1px;
+    left: 1px;
+    width:100%;
+    height:100%;
+    background-color: #fff;
+    box-shadow: 10px 10px 18px #888888;    
+    filter:alpha(opacity=10);
+    opacity:0.1;
+}
+
+
+/* <div style="filter:alpha(opacity=50); opacity:0.5;">........</div> */
+
+/* divs das mensagens */
+.message {
+    position: fixed;
+    top: 30px;
+    left: 270px;            
+    padding: 2px;
+    border-style: none;
+    background-color: #cfc;
+}
+
+/* divs das mensagens */
+.logo {
+    position: fixed;
+    top: 15px;
+    left: 250px;            
+    padding: 2px;
+    border-style: none;
+    background-color: white;
+}
+
+
+/* divs das mensagens */
+.qrcode {
+    position: fixed;
+    top: 12px;
+    right: 20px;            
+    border-style: none;
+    background-color: white;
+}
+
+ /*style="float: right;"*/
+
+
+
+/* id caixas de edicao */
+.id {
+    background-color:#DDD; 
+    width:20px;
+}
+
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* ****** revitasos  ***** */
+
+/* Links inside the navbar */
+.navbar a {
+  margin-top: 0px;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
